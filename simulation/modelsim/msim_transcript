@@ -1,0 +1,142 @@
+# do HDMI_run_msim_rtl_verilog.do
+# if ![file isdirectory HDMI_iputf_libs] {
+# 	file mkdir HDMI_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /home/kamal/intelFPGA_lite/18.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "/home/kamal/GitHub/HDL/pll/pll_sim/pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Jun 26,2021
+# vlog -reportprogress 300 /home/kamal/GitHub/HDL/pll/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 12:45:16 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL {/home/kamal/GitHub/HDL/vga_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Jun 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kamal/GitHub/HDL" /home/kamal/GitHub/HDL/vga_generator.v 
+# -- Compiling module vga_generator
+# 
+# Top level modules:
+# 	vga_generator
+# End time: 12:45:16 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL {/home/kamal/GitHub/HDL/I2C_WRITE_WDATA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Jun 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kamal/GitHub/HDL" /home/kamal/GitHub/HDL/I2C_WRITE_WDATA.v 
+# -- Compiling module I2C_WRITE_WDATA
+# 
+# Top level modules:
+# 	I2C_WRITE_WDATA
+# End time: 12:45:16 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL {/home/kamal/GitHub/HDL/I2C_HDMI_Config.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Jun 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kamal/GitHub/HDL" /home/kamal/GitHub/HDL/I2C_HDMI_Config.v 
+# -- Compiling module I2C_HDMI_Config
+# 
+# Top level modules:
+# 	I2C_HDMI_Config
+# End time: 12:45:16 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL {/home/kamal/GitHub/HDL/I2C_Controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Jun 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kamal/GitHub/HDL" /home/kamal/GitHub/HDL/I2C_Controller.v 
+# -- Compiling module I2C_Controller
+# 
+# Top level modules:
+# 	I2C_Controller
+# End time: 12:45:16 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL {/home/kamal/GitHub/HDL/HDMI.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Jun 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kamal/GitHub/HDL" /home/kamal/GitHub/HDL/HDMI.v 
+# -- Compiling module HDMI
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(98): (vlog-2388) 'h_total' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(98): (vlog-2388) 'h_sync' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(98): (vlog-2388) 'h_start' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(98): (vlog-2388) 'h_end' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(99): (vlog-2388) 'v_total' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(99): (vlog-2388) 'v_sync' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(99): (vlog-2388) 'v_start' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(99): (vlog-2388) 'v_end' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(100): (vlog-2388) 'v_active_14' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(100): (vlog-2388) 'v_active_24' already declared in this scope (HDMI).
+# ** Error (suppressible): /home/kamal/GitHub/HDL/HDMI.v(100): (vlog-2388) 'v_active_34' already declared in this scope (HDMI).
+# End time: 12:45:16 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: /home/kamal/intelFPGA_lite/18.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./HDMI_run_msim_rtl_verilog.do line 23
+# /home/kamal/intelFPGA_lite/18.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL {/home/kamal/GitHub/HDL/HDMI.v}"
+# 
+# stdin: <EOF>
+vsim rtl_work hdmi
+# vsim rtl_work hdmi 
+# Start time: 12:45:40 on Jun 26,2021
+# ** Error: (vsim-3170) Could not find 'rtl_work'.
+#         Searched libraries:
+#             /home/kamal/GitHub/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 12:45:40 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim rtl_work.hdmi
+# vsim rtl_work.hdmi 
+# Start time: 12:45:55 on Jun 26,2021
+# ** Error: (vsim-3170) Could not find 'hdmi'.
+#         Searched libraries:
+#             /home/kamal/GitHub/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 12:45:55 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim rtl_work.pll
+# vsim rtl_work.pll 
+# Start time: 12:46:06 on Jun 26,2021
+# Loading rtl_work.pll
+# ** Error: (vsim-3033) /home/kamal/GitHub/HDL/pll/pll_sim/pll.vo(45): Instantiation of 'altera_pll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pll File: /home/kamal/GitHub/HDL/pll/pll_sim/pll.vo
+#         Searched libraries:
+#             /home/kamal/GitHub/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 12:46:06 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim rtl_work.pll
+# vsim rtl_work.pll 
+# Start time: 12:46:10 on Jun 26,2021
+# Loading rtl_work.pll
+# ** Error: (vsim-3033) /home/kamal/GitHub/HDL/pll/pll_sim/pll.vo(45): Instantiation of 'altera_pll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pll File: /home/kamal/GitHub/HDL/pll/pll_sim/pll.vo
+#         Searched libraries:
+#             /home/kamal/GitHub/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 12:46:10 on Jun 26,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim rtl_work.vga_generator
+# vsim rtl_work.vga_generator 
+# Start time: 12:46:12 on Jun 26,2021
+# Loading rtl_work.vga_generator
+# End time: 12:46:21 on Jun 26,2021, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

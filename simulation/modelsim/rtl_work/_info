@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/kamal/GitHub/simulation/modelsim
+vI2C_Controller
+Z1 !s110 1624725916
+!i10b 1
+!s100 =nTjf4Y@9kH@dmE4BCDHm2
+IgLl_`?HR9i[O91kg3G5[m0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1481671254
+8/home/kamal/GitHub/HDL/I2C_Controller.v
+F/home/kamal/GitHub/HDL/I2C_Controller.v
+L0 43
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1624725916.000000
+!s107 /home/kamal/GitHub/HDL/I2C_Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/kamal/GitHub/HDL|/home/kamal/GitHub/HDL/I2C_Controller.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/kamal/GitHub/HDL
+Z8 tCvgOpt 0
+n@i2@c_@controller
+vI2C_HDMI_Config
+R1
+!i10b 1
+!s100 nNJa1[eakamYdR^FiI?IL1
+IKOUG[@cWTb;Hzbz8oCSIg2
+R2
+R0
+R3
+8/home/kamal/GitHub/HDL/I2C_HDMI_Config.v
+F/home/kamal/GitHub/HDL/I2C_HDMI_Config.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/kamal/GitHub/HDL/I2C_HDMI_Config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/kamal/GitHub/HDL|/home/kamal/GitHub/HDL/I2C_HDMI_Config.v|
+!i113 1
+R6
+R7
+R8
+n@i2@c_@h@d@m@i_@config
+vI2C_WRITE_WDATA
+R1
+!i10b 1
+!s100 5WaJ4L6HoCF]_^F;`3^^B3
+I?U]mj1<`Y:8LnAhaFB^>51
+R2
+R0
+R3
+8/home/kamal/GitHub/HDL/I2C_WRITE_WDATA.v
+F/home/kamal/GitHub/HDL/I2C_WRITE_WDATA.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/kamal/GitHub/HDL/I2C_WRITE_WDATA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/kamal/GitHub/HDL|/home/kamal/GitHub/HDL/I2C_WRITE_WDATA.v|
+!i113 1
+R6
+R7
+R8
+n@i2@c_@w@r@i@t@e_@w@d@a@t@a
+vpll
+R1
+!i10b 1
+!s100 :O_<Qzm7ViXdECc1Vz5XQ3
+IhEI;RK6DV1RR_L=c>Y[8g2
+R2
+R0
+w1624557146
+8/home/kamal/GitHub/HDL/pll/pll_sim/pll.vo
+F/home/kamal/GitHub/HDL/pll/pll_sim/pll.vo
+L0 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/kamal/GitHub/HDL/pll/pll_sim/pll.vo|
+!s90 -reportprogress|300|/home/kamal/GitHub/HDL/pll/pll_sim/pll.vo|
+!i113 1
+R8
+vvga_generator
+R1
+!i10b 1
+!s100 K[>l^=ZHVe2`E@J^1O[6n2
+IiNlho^IVMOI4;>JW6Y5Ck3
+R2
+R0
+w1624713176
+8/home/kamal/GitHub/HDL/vga_generator.v
+F/home/kamal/GitHub/HDL/vga_generator.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/kamal/GitHub/HDL/vga_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/kamal/GitHub/HDL|/home/kamal/GitHub/HDL/vga_generator.v|
+!i113 1
+R6
+R7
+R8

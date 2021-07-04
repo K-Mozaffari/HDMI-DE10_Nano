@@ -1,0 +1,11 @@
+
+
+/home/kamal/GitHub/HDL/pll/pll.v
+
+Jun 26 05PM:34:54>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/kamal/GitHub/HDL/pll/pll.v
+
+Jun 26 05PM:35:00>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
